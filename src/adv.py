@@ -116,7 +116,9 @@ while choice != ['q']:
                 print('This key fits like a glove.  The lock begins to turn.')
                 newPlayerObject.currentRoom = room['10']
                 print('The door opens.')
+                print('You are ' + newPlayerObject.currentRoom.name)
                 print(newPlayerObject.currentRoom.description)
+                choice = ['q']
             elif item.name != 'doorkey':
                 print('')
             else:
