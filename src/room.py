@@ -2,7 +2,7 @@
 # description attributes.
 from item import Item
 class Room:
-    def __init__(self, name, description, items=[Item('doorkey', 'The key that opens the door to end the simulation'), Item('E-Corp Employee RFID Keycard', """An identification card belonging to an Angela Moss.  I wonder who that is!""")]):
+    def __init__(self, name, description, items=[Item('E-Corp Employee RFID Keycard', """An identification card belonging to an Angela Moss.  I wonder who that is!""")]):
         self.name = name
         self.description = description
         self.items = items

@@ -15,7 +15,7 @@ room = {
 
     '5':   Room("by a black backpack leaning against the wall", """A black, open-mouthed Jansport is propped up, leaning against the wall.  I wonder what's inside."""),
 
-    '6':   Room("by a desk", """The bright shine of a login screen on a laptop illuminates the black Ikea desk in front of you.  The text screen on the screen says that this is Mr_Robot's MacBook.  Mr_Robot.  I wonder who that is."""),
+    '6':   Room("by a desk", """The bright shine of a login screen on a laptop illuminates the black Ikea desk in front of you.  The text screen on the screen says that this is Mr_Robot's MacBook.  Mr_Robot.  I wonder who that is.""", [Item('doorkey', 'The key that opens the door to end the simulation')]),
 
     '7':   Room("at the refrigerator", """Wow.  A refrigerator, and it's full.  What is going on here?"""),
 
